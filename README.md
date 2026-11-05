@@ -10,8 +10,9 @@ Chess site adapters (Lichess, Chess.com, future), PGN normalization, and recorde
 - `NormalizedGame` -- shared normalized game contract
 - `AdapterErrorCode` / `SiteAdapterError` -- stable error mapping codes from the project spec
 - `createLichessAdapter` / `lichessAdapter` -- Lichess public API adapter (`https://lichess.org` only)
+- `createChessComAdapter` / `chessComAdapter` -- Chess.com Published-Data API adapter (`https://api.chess.com/pub/` only)
 
-Lichess tests use recorded fixtures under `fixtures/lichess/`. No live Chess.com or Lichess calls in CI. On HTTP 429, wait at least 60 seconds before retrying (Lichess API tips).
+Tests use recorded fixtures under `fixtures/lichess/` and `fixtures/chesscom/`. No live Chess.com or Lichess calls in CI. On HTTP 429, wait at least 60 seconds before retrying (Lichess API tips; Chess.com polite serial retry). Chess.com has no single-game PubAPI endpoint; `fetchGame` uses composite ids `username/YYYY/MM/id` from `listRecentGames`.
 
 ## Scripts
 

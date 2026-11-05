@@ -1,0 +1,98 @@
+{
+  "games": [
+    {
+      "url": "https://www.chess.com/game/daily/29099782",
+      "pgn": "[Event \"Let's Play!\"]\n[Site \"Chess.com\"]\n[Date \"2009.10.01\"]\n[Round \"-\"]\n[White \"Mainline_Novelty\"]\n[Black \"erik\"]\n[Result \"1-0\"]\n[CurrentPosition \"r2q1rk1/3nppbp/2pp1np1/pp4Nb/3PP1P1/PBN1B2P/1PPQ1P2/R3K2R b KQ g3 1 12\"]\n[Timezone \"UTC\"]\n[ECO \"B06\"]\n[ECOUrl \"https://www.chess.com/openings/Modern-Defense-Standard-Two-Knights-Suttles-Variation-5.Be3-Nf6-6.Qd2\"]\n[UTCDate \"2009.10.01\"]\n[UTCTime \"23:14:41\"]\n[WhiteElo \"1633\"]\n[BlackElo \"1920\"]\n[TimeControl \"1/259200\"]\n[Termination \"Mainline_Novelty won by resignation\"]\n[StartTime \"23:14:41\"]\n[EndDate \"2009.10.04\"]\n[EndTime \"15:38:54\"]\n[Link \"https://www.chess.com/game/daily/29099782\"]\n\n1. e4 d6 2. d4 Nf6 3. Nc3 g6 4. Be3 Bg7 5. Qd2 c6 6. Nf3 Bg4 7. Bc4 b5 8. Bb3 a5 9. a3 Nbd7 10. Ng5 O-O 11. h3 Bh5 12. g4 1-0\n",
+      "time_control": "1/259200",
+      "end_time": 1254670734,
+      "rated": true,
+      "accuracies": {
+        "white": 96.18,
+        "black": 83.72
+      },
+      "tcn": "mCZRlB!Tbs2Ucu92dlYQgv6EfAXHArWGiq5ZvM8!pxENoE",
+      "uuid": "3277772e-aee0-11de-830e-00000001000b",
+      "initial_setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "fen": "r2q1rk1/3nppbp/2pp1np1/pp4Nb/3PP1P1/PBN1B2P/1PPQ1P2/R3K2R b KQ g3 1 12",
+      "start_time": 1254438881,
+      "time_class": "daily",
+      "rules": "chess",
+      "white": {
+        "rating": 1633,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/mainline_novelty",
+        "username": "Mainline_Novelty",
+        "uuid": "9c535e34-2dd0-11dd-8006-000000000000"
+      },
+      "black": {
+        "rating": 1920,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/erik",
+        "username": "erik",
+        "uuid": "fe696c00-fcba-11db-8029-000000000000"
+      },
+      "eco": "https://www.chess.com/openings/Modern-Defense-Standard-Two-Knights-Suttles-Variation-5.Be3-Nf6-6.Qd2"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/29150975",
+      "pgn": "[Event \"Let's Play!\"]\n[Site \"Chess.com\"]\n[Date \"2009.10.02\"]\n[Round \"-\"]\n[White \"nym\"]\n[Black \"erik\"]\n[Result \"0-1\"]\n[CurrentPosition \"4rk2/1pp2p2/p2b1n1p/3P1bp1/2BP1p2/P1N4P/1PP3P1/R1B3K1 w - - 2 17\"]\n[Timezone \"UTC\"]\n[ECO \"C36\"]\n[ECOUrl \"https://www.chess.com/openings/Kings-Gambit-Accepted-Modern-Defense-4.exd5-Bd6\"]\n[UTCDate \"2009.10.02\"]\n[UTCTime \"17:18:53\"]\n[WhiteElo \"1898\"]\n[BlackElo \"1920\"]\n[TimeControl \"1/432000\"]\n[Termination \"erik won by resignation\"]\n[StartTime \"17:18:53\"]\n[EndDate \"2009.10.04\"]\n[EndTime \"21:15:13\"]\n[Link \"https://www.chess.com/game/daily/29150975\"]\n\n1. e4 e5 2. f4 exf4 3. Nf3 d5 4. exd5 Bd6 5. Bc4 Nf6 6. Qe2+ Qe7 7. Qxe7+ Kxe7 8. d4 Re8 9. O-O h6 10. Ne5 g5 11. Re1 Kf8 12. Nc3 Nbd7 13. Nxd7+ Bxd7 14. Rxe8+ Rxe8 15. h3 a6 16. a3 Bf5 0-1\n",
+      "time_control": "1/432000",
+      "end_time": 1254690913,
+      "rated": false,
+      "accuracies": {
+        "white": 38.41,
+        "black": 95.89
+      },
+      "tcn": "mC0KnDKDgvZJCJ9RfA!Tdm70m080lB?8eg3VvK2Mfe09bs5ZKZ6Ze848pxWOiqZL",
+      "uuid": "a87aef2c-af77-11de-83cf-00000001000b",
+      "initial_setup": "rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1",
+      "fen": "4rk2/1pp2p2/p2b1n1p/3P1bp1/2BP1p2/P1N4P/1PP3P1/R1B3K1 w - - 2 17",
+      "start_time": 1254503933,
+      "time_class": "daily",
+      "rules": "chess",
+      "white": {
+        "rating": 1898,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/nym",
+        "username": "nym",
+        "uuid": "d5f6f9fa-c229-11dd-8001-000000000000"
+      },
+      "black": {
+        "rating": 1920,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/erik",
+        "username": "erik",
+        "uuid": "fe696c00-fcba-11db-8029-000000000000"
+      },
+      "eco": "https://www.chess.com/openings/Kings-Gambit-Accepted-Modern-Defense-4.exd5-Bd6"
+    },
+    {
+      "url": "https://www.chess.com/game/daily/29210290",
+      "pgn": "[Event \"DAWG DAY - Chess960\"]\n[Site \"Chess.com\"]\n[Date \"2009.10.03\"]\n[Round \"-\"]\n[White \"BIGDAWG\"]\n[Black \"erik\"]\n[Result \"1-0\"]\n[Variant \"Chess960\"]\n[SetUp \"1\"]\n[FEN \"nrknqbbr/pppppppp/8/8/8/8/PPPPPPPP/NRKNQBBR w HBhb - 0 1\"]\n[CurrentPosition \"k4r2/1pQP2pp/5bq1/1pp5/P1P5/6P1/1NN4P/1K3R2 b - - 1 30\"]\n[Timezone \"UTC\"]\n[ECO \"A02\"]\n[ECOUrl \"https://www.chess.com/openings/Birds-Opening\"]\n[UTCDate \"2009.10.03\"]\n[UTCTime \"14:34:30\"]\n[WhiteElo \"1575\"]\n[BlackElo \"1132\"]\n[TimeControl \"1/604800\"]\n[Termination \"BIGDAWG won by resignation\"]\n[StartTime \"14:34:30\"]\n[EndDate \"2009.10.13\"]\n[EndTime \"23:45:24\"]\n[Link \"https://www.chess.com/game/daily/29210290\"]\n\n1. f4 Nb6 2. e4 f5 3. b3 Nc6 4. c3 e5 5. exf5 Ba3+ 6. Nb2 Na4 7. bxa4 Bxa2 8. Nc2 Bxb1 9. Kxb1 Bd6 10. fxe5 Bxe5 11. Be3 Qf7 12. Bxa7 Ra8 13. Bc5 d6 14. Bc4 Qxf5 15. Be3 Na5 16. Ba2 Rf8 17. d4 Bf6 18. Rf1 Qg6 19. g3 Ra6 20. Be6+ Kb8 21. d5 Nb3 22. c4 Nc5 23. Bxc5 dxc5 24. Bd7 Rb6 25. Bb5 c6 26. Qa5 Kc7 27. d6+ Kb8 28. Qxb6 cxb5 29. Qc7+ Ka8 30. d7 1-0\n",
+      "time_control": "1/604800",
+      "end_time": 1255477524,
+      "rated": true,
+      "tcn": "nD4PmC1Ljr7Qks0KCL9qdjPyry!iakibcbqRDKRKgu81uW54WIZRfA1LIuQGAi?9lBKThfLUow4OiS65BJGrsArIuIRISZOPZHYQeG5YJRY5GPQHPY54RZ",
+      "uuid": "dc165404-b029-11de-8122-00000001000b",
+      "initial_setup": "nrknqbbr/pppppppp/8/8/8/8/PPPPPPPP/NRKNQBBR w KQkq - 0 1",
+      "fen": "k4r2/1pQP2pp/5bq1/1pp5/P1P5/6P1/1NN4P/1K3R2 b - - 1 30",
+      "start_time": 1254580470,
+      "time_class": "daily",
+      "rules": "chess960",
+      "white": {
+        "rating": 1575,
+        "result": "win",
+        "@id": "https://api.chess.com/pub/player/bigdawg",
+        "username": "BIGDAWG",
+        "uuid": "6d824800-ab93-11dc-8001-000000000000"
+      },
+      "black": {
+        "rating": 1132,
+        "result": "resigned",
+        "@id": "https://api.chess.com/pub/player/erik",
+        "username": "erik",
+        "uuid": "fe696c00-fcba-11db-8029-000000000000"
+      }
+    }
+  ]
+}

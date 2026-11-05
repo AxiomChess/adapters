@@ -24,3 +24,19 @@ export {
   type CreateLichessAdapterOptions,
   type LichessGameJson,
 } from "./lichess/index.js"
+
+export {
+  createChessComAdapter,
+  chessComAdapter,
+  CHESSCOM_BASE_URL,
+  CHESSCOM_ORIGIN,
+  CHESSCOM_RATE_LIMIT_WAIT_MS,
+  CHESSCOM_SITE_ID,
+  buildMonthlyPgnPath,
+  encodeChessComCompositeGameId,
+  decodeChessComCompositeGameId,
+  mapChessComHttpError,
+  parseChessComUrl,
+  type CreateChessComAdapterOptions,
+  type ChessComGameJson,
+} from "./chesscom/index.js"
