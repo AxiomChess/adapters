@@ -15,10 +15,12 @@
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/index.js"
-    }
+    },
+    "./sites.manifest.json": "./sites.manifest.json"
   },
   "files": [
-    "dist"
+    "dist",
+    "sites.manifest.json"
   ],
   "scripts": {
     "build": "tsc -p tsconfig.build.json --pretty false",

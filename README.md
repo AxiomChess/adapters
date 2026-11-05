@@ -14,6 +14,7 @@ Chess site adapters (Lichess, Chess.com, future), PGN normalization, and recorde
 - `normalizePgn` -- canonical PGN export-format normalizer (Seven Tag Roster order)
 - `createLichessAdapter` / `lichessAdapter` -- Lichess public API adapter (`https://lichess.org` only)
 - `createChessComAdapter` / `chessComAdapter` -- Chess.com Published-Data API adapter (`https://api.chess.com/pub/` only)
+- `SITES_MANIFEST` / `getSupportedSites` / `SITE_ADAPTERS` -- machine-readable supported sites list for API `GET /v1/sites` (also `sites.manifest.json`)
 
 Tests use recorded fixtures under `fixtures/lichess/` and `fixtures/chesscom/`. No live Chess.com or Lichess calls in CI. On HTTP 429, wait at least 60 seconds before retrying (Lichess API tips; Chess.com polite serial retry). Chess.com has no single-game PubAPI endpoint; `fetchGame` uses composite ids `username/YYYY/MM/id` from `listRecentGames`.
 

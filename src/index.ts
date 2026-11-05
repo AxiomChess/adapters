@@ -62,3 +62,18 @@ export {
   type CreateChessComAdapterOptions,
   type ChessComGameJson,
 } from "./chesscom/index.js"
+
+export {
+  SITE_ADAPTERS,
+  SITES_MANIFEST,
+  SITES_MANIFEST_VERSION,
+  SUPPORTED_SITES,
+  assertManifestMatchesAdapters,
+  getSiteAdapter,
+  getSupportedSiteById,
+  getSupportedSites,
+  sitesManifestToJson,
+  type SiteCapability,
+  type SitesManifest,
+  type SupportedSiteEntry,
+} from "./sites/index.js"

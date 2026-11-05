@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "sites": [
+    {
+      "id": "lichess",
+      "displayName": "Lichess",
+      "officialBaseUrl": "https://lichess.org",
+      "documentationUrl": "https://lichess.org/api",
+      "auth": "none",
+      "variants": ["standard"],
+      "capabilities": ["parse_url", "fetch_game", "list_recent_games"],
+      "allowlistedHosts": ["lichess.org", "www.lichess.org"],
+      "rateLimitWaitMs": 60000,
+      "notes": "Official public API only. One request at a time from a worker; after HTTP 429 wait at least 60 seconds (Lichess API tips)."
+    },
+    {
+      "id": "chesscom",
+      "displayName": "Chess.com",
+      "officialBaseUrl": "https://api.chess.com/pub",
+      "documentationUrl": "https://www.chess.com/news/view/published-data-api",
+      "auth": "none",
+      "variants": ["standard"],
+      "capabilities": ["parse_url", "fetch_game", "list_recent_games"],
+      "allowlistedHosts": ["chess.com", "www.chess.com"],
+      "rateLimitWaitMs": 60000,
+      "notes": "Published-Data API only under https://api.chess.com/pub/. PubAPI has no single-game endpoint; fetch_game uses composite ids username/YYYY/MM/id from list_recent_games."
+    }
+  ]
+}
