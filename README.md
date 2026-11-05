@@ -4,13 +4,14 @@ Chess site adapters (Lichess, Chess.com, future), PGN normalization, and recorde
 
 ## Package
 
-`@axiomchess/adapters` is a TypeScript library. v1 bootstrap exports:
+`@axiomchess/adapters` is a TypeScript library. Exports:
 
 - `SiteAdapter` -- per-site ingest interface (`parseUrl`, `fetchGame`, `listRecentGames`, `toNormalizedGame`)
 - `NormalizedGame` -- shared normalized game contract
 - `AdapterErrorCode` / `SiteAdapterError` -- stable error mapping codes from the project spec
+- `createLichessAdapter` / `lichessAdapter` -- Lichess public API adapter (`https://lichess.org` only)
 
-Site implementations and HTTP fixtures land in later roadmap tasks. Tests use recorded fixtures only; no live Chess.com or Lichess calls in CI.
+Lichess tests use recorded fixtures under `fixtures/lichess/`. No live Chess.com or Lichess calls in CI. On HTTP 429, wait at least 60 seconds before retrying (Lichess API tips).
 
 ## Scripts
 

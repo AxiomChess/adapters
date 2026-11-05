@@ -12,3 +12,15 @@ export type {
   ParsedGameRef,
   SiteAdapter,
 } from "./site-adapter.js"
+
+export {
+  createLichessAdapter,
+  lichessAdapter,
+  LICHESS_BASE_URL,
+  LICHESS_RATE_LIMIT_WAIT_MS,
+  LICHESS_SITE_ID,
+  mapLichessHttpError,
+  parseLichessUrl,
+  type CreateLichessAdapterOptions,
+  type LichessGameJson,
+} from "./lichess/index.js"
