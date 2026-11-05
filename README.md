@@ -9,6 +9,9 @@ Chess site adapters (Lichess, Chess.com, future), PGN normalization, and recorde
 - `SiteAdapter` -- per-site ingest interface (`parseUrl`, `fetchGame`, `listRecentGames`, `toNormalizedGame`)
 - `NormalizedGame` -- shared normalized game contract
 - `AdapterErrorCode` / `SiteAdapterError` -- stable error mapping codes from the project spec
+- `parseGameUrl` -- multi-site URL router over allowlisted Lichess and Chess.com hosts
+- `isAllowedSiteHost` / `isAllowedSiteUrl` / `parseAllowedSiteUrl` -- SSRF-safe host allowlist helpers
+- `normalizePgn` -- canonical PGN export-format normalizer (Seven Tag Roster order)
 - `createLichessAdapter` / `lichessAdapter` -- Lichess public API adapter (`https://lichess.org` only)
 - `createChessComAdapter` / `chessComAdapter` -- Chess.com Published-Data API adapter (`https://api.chess.com/pub/` only)
 
