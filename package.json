@@ -1,6 +1,6 @@
 {
   "name": "@axiomchess/adapters",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "description": "Chess site adapters, PGN normalization, and recorded fixtures for AxiomChess",
   "license": "MIT",
