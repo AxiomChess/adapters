@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/AxiomChess/design/main/assets/brand/banner.svg" alt="AxiomChess" width="880" />
+</p>
+
 # adapters
 
 Chess site adapters (Lichess, Chess.com, future), PGN normalization, and recorded fixtures for AxiomChess.
@@ -28,6 +32,10 @@ pnpm build
 ```
 
 Requires Node.js 20+ and pnpm 10+.
+
+## Docs
+
+https://axiomchess.github.io/docs/supported-sites.html
 
 ## License
 
