@@ -20,6 +20,9 @@
   },
   "files": [
     "dist",
+    "src",
+    "tsconfig.json",
+    "tsconfig.build.json",
     "sites.manifest.json"
   ],
   "scripts": {
