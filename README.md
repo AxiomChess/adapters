@@ -1,7 +1,6 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AxiomChess/design/main/assets/brand/banner.svg" alt="AxiomChess" width="880" />
+  <img src="https://raw.githubusercontent.com/AxiomChess/design/main/assets/brand/banner.svg" alt="AxiomChess" width="920" />
 </p>
-
 # adapters
 
 Chess site adapters (Lichess, Chess.com, future), PGN normalization, and recorded fixtures for AxiomChess.
